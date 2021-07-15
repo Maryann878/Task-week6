@@ -1,0 +1,16 @@
+.profileImg{
+    border-radius: 50%;
+}
+
+#bigBody{
+    place-content: center;
+    display: grid;
+    background-color: thistle;
+
+}
+
+
+div{
+    background-color: cadetblue;
+
+}

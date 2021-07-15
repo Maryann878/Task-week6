@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+}
+body {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: white;
+}
+.intro-left {
+    background-image: url(./Images/360_F_183503230_heDoLySnwt4W968RVTJOf7LFHbkZdCHA.jpg);
+    position: fixed;
+    left: 0;
+    width: 33.333%;
+    height: 100%;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+
+}
+.porter {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+.full-height {
+    height: 100%;
+}
+
+.quote {
+    float: right;
+    color: snow;
+}
+
+section {
+    margin: 5rem;
+    font-size: 1.2rem;
+}
+.footer {
+    background-color: rgb(34, 37, 231);
+    font-size: 1rem;
+    margin: 0;
+}
+.panel-right {
+    background-color:rgb(38, 55, 104);
+    color: rgb(255, 251, 251);
+}
+.my-display{
+    font-family: 'Bebas Neue', cursive;
+margin-top: -25px;
+font-size: 200%;
+font-weight: 400;
+color: white;
+}
+.my-display-2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin-top: -38px;
+    text-transform: capitalize;
+    color: darkorange;
+}
+span{
+    color:whitesmoke;
+}
+.panelright{
+    color: #000;
+}
